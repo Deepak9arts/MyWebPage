@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    /*font-size: 2em;;*/
+    color: #40514E;
+}
+
+h1{
+    font-size: 5.625rem;
+    /*width: 10%;
+    margin: 100px auto; /* used "auto" because h1 has width set to it
+    ,due to which the alignment set by 
+    the parent i.e body gets undone;
+    */
+    margin: 100px 0px 0px 0px;
+    font-family:'Sacramento',cursive;
+    color: #66BFBF;
+    line-height: 2;/* increases space bwt two txts*/
+
+}
+h2{
+    font-family:'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    margin: 0px;
+    color:#66BFBF;
+    font-weight:normal;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}   
+.topcontainer{
+    background-color: #E4F9F5;
+    margin:0px 0px 0px 0px;
+    padding-top: 50px;  /* we did this because we wanted topcloud to not touch the div,,
+    we wanted a little spacing from top */
+    position: relative;
+}
+h3{
+    color: #11999E;
+}
+
+   
+.bottom-container{
+    background-color: #66BFBF;
+    margin: 50px auto 0px auto;
+    padding :20px;
+}
+.bottomcloud{
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+
+    /*we did this because we wanted this image to break the normal html flow*/
+}
+
+.topcloud{
+    position:absolute;
+    right:250px;
+    top:50px;
+    
+}
+.mountain{
+    margin: auto;
+}
+.textdeco{
+text-decoration-line: underline;
+}
+.footer-1link{
+    color: #11999E;
+}
+.skill-row{
+    width: 50%; /* made the skill divs 50% of the actual .. due to this it gets de alighned and shifts to left*/ 
+    margin: 80px auto 100px auto; /* aligned the div from left and right by setting its margin to auto */
+    text-align: left; /* makes our text towards the left .This also overrides the text align of 
+    body. But Still ,body wala text align kaam karega baaki sabhi jagaho pe*/
+    line-height: 2;
+}
+.skills{
+    padding-top:50px ;
+}
+.computer-img{
+width:25%;
+float: left;
+/* padding-right: 30px; pata nahi image aur text ke bech mein distance badhane ke liye padding kyu nhai use kiya*/ 
+margin-right:30px ;
+}
+.hacker-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/*
+.anti-float{
+    clear:left;
+}
+.anti-float2{
+    clear:right;
+}
+*/
+.regis{
+    margin: 20px 0px;
+    color: #eaf6f6;
+}
+
+    hr{
+        background-color: none;
+        border-style:dotted none none none ;
+        border-color: grey;
+        border-width: 5px;
+    
+        width: 5%;
+        margin: auto;
+    }
+ .profile{
+    padding:50px ;
+}
+
+.contact-me{
+    padding: 50px;
+}
+.contact-message{
+    width: 50%;
+    margin: 50px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  a{
+    color: #11999E;
+    margin: 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #eaf6f6;
+  }
